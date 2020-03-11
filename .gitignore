@@ -1,0 +1,8 @@
+###R related
+*.Rimage
+*.Rhistory
+###Data Sets
+*.xlsx
+*.txt
+###Specific Files
+ExtractNcRnaTypes.R
