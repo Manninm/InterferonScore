@@ -10,16 +10,16 @@ library('singscore')
 library("org.Hs.eg.db")
 library('openxlsx')
 ##### Input expression matrix file path, expression matrix should be a .xlsx file with gene identifiers in column 1
-Exp<-"Jess.xlsx"
+Exp<-""
 
 #### What sheet is the expression matrix on?
 Sheet=1
 
 ##### Input gene list file path. Should be a text file with 1 gene per column, no header
-GeneList<-"/home/manninm/GitProjects/InterferonScore/M1.2_genes.txt"
+GeneList<-""
 
 ##### Out file name, will be created in current working directory unless full path is given, please include the '.xlsx' ending
-OutFile<-'Cats.xlsx'
+OutFile<-''
 
 ##### Do you have a symbols column? TRUE or FALSE in your expression matrix?
 GeneSymbols=FALSE
